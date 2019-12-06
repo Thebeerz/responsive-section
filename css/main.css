@@ -31,7 +31,7 @@ section {
 }
 
 .wrap {
-  padding: 1.5rem;
+  padding: 1.3rem;
   display: flex;
   flex-wrap: wrap;
 }
