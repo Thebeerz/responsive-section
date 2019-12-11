@@ -31,6 +31,8 @@ section {
 }
 
 .wrapper {
+  margin: 0 auto;
+  max-width: 45em
   padding: 1.3rem;
   display: flex;
   flex-wrap: wrap;
@@ -41,7 +43,11 @@ section {
   font-weight: lighter;
 }
 
-.section-letter, .section-icon {
+.section-letter {
+  width: 50%;
+}
+
+.section-icon {
   width: 50%;
 }
 
@@ -115,7 +121,7 @@ section p {
 
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
